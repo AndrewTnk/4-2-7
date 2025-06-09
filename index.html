@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+     <main class="main">
+    <div class="field">
+      <div class="wrapper">
+        <input type="text" id="search" class="search-field">
+        <div id="autocomplete" class="autocomplete"></div>
+      </div>
+
+      <div class="output-field"></div>
+    </div>
+  </main>
+
+  <template id="card">
+    <div class="card">
+      <div class="card-text">
+        <span class="card-name">Name: react</span>
+        <span class="card-owner">Owner: facebook</span>
+        <span class="card-stars">Stars: 145231</span>
+      </div>
+      <button class="card-button" id="delete-button" type="button"></button>
+    </div>
+  </template>
+  <script src="main.js"></script>
+</body>
+</html>
